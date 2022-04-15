@@ -17,9 +17,9 @@
 
   /* typography */
   --body-font: "Exo", sans-serif;
-  --h1-font-size: 2.3rem;
-  --h2-font-size: 1.4rem;
-  --h3-font-size: 1rem;
+  --h1-font-size: 2.1rem;
+  --h2-font-size: 1.3rem;
+  --h3-font-size: 0.98rem;
   --normal-font-size: 0.93rem;
   --small-font-size: 0.8rem;
   --smaller-font-size: 0.75rem;
@@ -505,9 +505,9 @@ img {
 
 .popular__card {
   position: relative;
-  max-width: 250px;
-  max-height: 350px;
-  min-height: 350px;
+  max-width: 230px;
+  min-height: 280px;
+  max-height: 280px;
   padding: 2rem;
   background-color: var(--container-color);
   border-radius: 12px;
@@ -605,15 +605,14 @@ img {
 /* Fearures section */
 .features__container {
   position: relative;
-  margin-top: 12rem;
-  height: 60vh;
-  padding-top: 85px;
+  margin-top: 10rem;
+  height: 40vh;
 }
 
 .features__container .features__image {
   transform: rotateZ(90deg);
-  margin-top: 6rem;
   position: relative;
+  top: 20%;
   z-index: -1;
 }
 
@@ -635,17 +634,18 @@ img {
 }
 
 .feature__card1 {
-  left: 40px;
-  top: 60px;
+  left: 10%;
+  top: 0;
 }
 
 .feature__card2 {
-  right: 40px;
-  top: 170px;
+  right: 10%;
+  top: 30%;
 }
 
 .feature__card3 {
-  left: 40px;
+  bottom: 0;
+  left: 10%;
 }
 
 .feature__card-title {
@@ -688,14 +688,19 @@ img {
 
 .filter__item {
   background-color: var(--container-color);
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 12px;
   display: flex;
   align-items: Center;
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+.filter__item img {
+  width: 30px;
+  height: 30px;
 }
 
 .filter__item:hover {
@@ -710,10 +715,10 @@ img {
 }
 
 .featured__card {
-  max-width: 250px;
-  height: 300px;
+  max-width: 230px;
+  height: 280px;
   background-color: var(--container-color);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 12px;
   margin-bottom: 2rem;
   overflow: hidden;
@@ -737,7 +742,7 @@ img {
 .featured__card-title {
   font-size: var(--h2-font-size);
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: var(--font-semi-bold);
   margin-bottom: 0.3rem;
 }
@@ -764,14 +769,17 @@ img {
   background-color: var(--first-color);
   width: max-content;
   font-size: 1.5rem;
-  padding: 0.8rem 3rem;
+  padding: 1rem 1rem;
   border-radius: 12px;
   display: grid;
   place-content: center;
   position: absolute;
-  bottom: 2rem;
+  bottom: 0;
+  right: 0;
   cursor: pointer;
   transition: all 0.3s ease;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .featured__card-button:hover {
