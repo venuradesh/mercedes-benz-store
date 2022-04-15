@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/breakPoints.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="icon" href="/images/favicon.png" ">
+    <title>Mercedes Store</title>
+  </head>
+  <body>
+    <!-- header portion -->
+    <div class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo" id="nav-logo">
+          <img src="/images/logo.png" alt="Mercedes Benz logo" />
+          <span>Mercedes Benz</span>
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link active-section" href="#home" id="home_link">Home</a></li>
+            <li class="nav__item"><a class="nav__link" href="#about" id="about_link">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="#popular" id="popular_link">Popular</a></li>
+            <li class="nav__item"><a class="nav__link" href="#featured" id="featured_link">Featured</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </div>
+
+    <!-- content portion -->
+    <div class="main">
+      <section class="car-preview container" id="home">
+        <div class="big-dot"></div>
+        <div class="small-dot"></div>
+        <div class="title-header">
+          <div class="title">Choose Your Car</div>
+          <div class="sub-title">Maybach S650</div>
+          <div class="desc">
+            <i class="ri-roadster-fill"></i>
+            Sedan Version
+          </div>
+        </div>
+        <div class="item-wrapper">
+          <div class="preview">
+            <img src="/images/s650.png" alt="s650" />
+          </div>
+          <div class="performance">
+            <div class="engine">
+              <i class="ri-settings-5-line"></i>
+              <div class="name">Engine</div>
+              <div class="option">5920cc</div>
+            </div>
+            <div class="speed">
+              <i class="ri-dashboard-3-line"></i>
+              <div class="name">Accelaration</div>
+              <div class="option">4s (0-60)</div>
+            </div>
+            <div class="price">
+              <i class="ri-price-tag-3-line"></i>
+              <div class="name">Price</div>
+              <div class="option"><span>$</span> 203,545</div>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <div class="start-btn">Start</div>
+        </div>
+      </section>
+
+      <!-- about section -->
+      <section class="about-section grid container" id="about">
+        <div class="about__image">
+          <img src="/images/s650-interior.jpg" alt="interior" />
+          <div class="image__description">
+            Experience the luxury of <br />
+            Mecedes Maybach
+          </div>
+        </div>
+
+        <div class="about__expressiveness container">
+          <div class="about__title">Rich in expressiveness.</div>
+          <div class="about__description">Sensual Purity as the expression of the ultimate in contemporary luxury – this is the focus of our designers. Their quest: to create clear forms and smooth surfaces which showcase high tech and rouse emotions.</div>
+
+          <div class="about__button">Know more</div>
+        </div>
+
+        <div class="about__tradition container">
+          <div class="about__title">Rich in Tradition</div>
+          <div class="about__description">In 1921 Wilhelm Maybach began redefining the world of automobility. He set himself the standard of creating the very best from the very best. A maxim that still applies to this day.</div>
+
+          <div class="about__button">Know more</div>
+        </div>
+      </section>
+
+      <!-- Popular section -->
+      <section class="popular__wrapper-container container" id="popular">
+        <div class="popular container grid swiper" id="popular">
+          <div class="popular__title">Choose Your Favourite<br />S Class</div>
+          <div class="swiper-wrapper">
+            <article class="popular__card swiper-slide">
+              <div class="dot"></div>
+              <div class="popular__card-title">Maybach S560</div>
+              <div class="popular__card-desc">Sedan Version</div>
+              <img src="/images/s560.png" alt="s560" class="popular__img" />
+              <div class="popular__data">
+                <div class="popular__data-group"><i class="ri-settings-5-line"></i> 3982cc</div>
+                <div class="popular__data-group"><i class="ri-thunderstorms-line"></i> 345kW</div>
+              </div>
+              <div class="popular__price">$295,000</div>
+              <div class="popular__button">
+                <i class="ri-shopping-bag-3-line"></i>
+              </div>
+            </article>
+            <article class="popular__card swiper-slide">
+              <div class="dot"></div>
+              <div class="popular__card-title">Maybach S500</div>
+              <div class="popular__card-desc">Sedan Version</div>
+              <img src="/images/s500.png" alt="s560" class="popular__img" />
+              <div class="popular__data">
+                <div class="popular__data-group"><i class="ri-settings-5-line"></i> 429hp</div>
+                <div class="popular__data-group"><i class="ri-thunderstorms-line"></i> 345kW</div>
+              </div>
+              <div class="popular__price">$112,150</div>
+              <div class="popular__button">
+                <i class="ri-shopping-bag-3-line"></i>
+              </div>
+            </article>
+            <article class="popular__card swiper-slide">
+              <div class="dot"></div>
+              <div class="popular__card-title">Maybach S650</div>
+              <div class="popular__card-desc">Sedan Version</div>
+              <img src="/images/s650.png" alt="s560" class="popular__img" />
+              <div class="popular__data">
+                <div class="popular__data-group"><i class="ri-settings-5-line"></i> 5920cc</div>
+                <div class="popular__data-group"><i class="ri-thunderstorms-line"></i> 345kW</div>
+              </div>
+              <div class="popular__price">$203,545</div>
+              <div class="popular__button">
+                <i class="ri-shopping-bag-3-line"></i>
+              </div>
+            </article>
+            <article class="popular__card swiper-slide">
+              <div class="dot"></div>
+              <div class="popular__card-title">Maybach S400</div>
+              <div class="popular__card-desc">Sedan Version</div>
+              <img src="/images/s400.png" alt="s460" class="popular__img" />
+              <div class="popular__data">
+                <div class="popular__data-group"><i class="ri-settings-5-line"></i>2990cc</div>
+                <div class="popular__data-group"><i class="ri-thunderstorms-line"></i> 345kW</div>
+              </div>
+              <div class="popular__price">$111,150</div>
+              <div class="popular__button">
+                <i class="ri-shopping-bag-3-line"></i>
+              </div>
+            </article>
+            <article class="popular__card swiper-slide">
+              <div class="dot"></div>
+              <div class="popular__card-title">Maybach S580e</div>
+              <div class="popular__card-desc">Sedan Version</div>
+              <img src="/images/s580e.png" alt="s580" class="popular__img" />
+              <div class="popular__data">
+                <div class="popular__data-group"><i class="ri-settings-5-line"></i> 503hp</div>
+                <div class="popular__data-group"><i class="ri-thunderstorms-line"></i> 345kW</div>
+              </div>
+              <div class="popular__price">$117,750</div>
+              <div class="popular__button">
+                <i class="ri-shopping-bag-3-line"></i>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <div class="features__container container" id="features">
+        <img src="/images/roof-view.png" alt="roof view" class="features__image" />
+        <div class="feature__card feature__card1">
+          <div class="feature__card-title">Engine</div>
+          <div class="feature__card-desc">6L Twin Turbo<br />V12 Gas</div>
+        </div>
+        <div class="feature__card feature__card2">
+          <div class="feature__card-title">Torque</div>
+          <div class="feature__card-desc">738 lb-ft<br />@ 2300rpm</div>
+        </div>
+        <div class="feature__card feature__card3">
+          <div class="feature__card-title">Transmission</div>
+          <div class="feature__card-desc">7-speed Automatic</div>
+        </div>
+        <div class="features__card-map">
+          <img src="/images/map.svg" alt="map" />
+        </div>
+      </div>
+
+      <!-- featured section -->
+      <section class="featured__section container" id="featured">
+        <div class="featured__heading">Luxury Mercedes Cars</div>
+        <div class="featured__filter-section">
+          <div class="filter__item" data-filter="all">
+            <span>All</span>
+          </div>
+          <div class="filter__item" data-filter=".brabus">
+            <img src="/images/logo1.png" alt="brabus" class="logo1" />
+          </div>
+          <div class="filter__item" data-filter=".maybach">
+            <img src="/images/logo2.png" alt="logo 2" class="logo2" />
+          </div>
+          <div class="filter__item" data-filter=".amg">
+            <img src="/images/logo3.png" alt="logo 3" class="logo3" />
+          </div>
+        </div>
+        <div class="featured__card-container container">
+          <div class="featured__card mix brabus">
+            <div class="featured__small-dot"></div>
+            <div class="featured__card-title">Brabus</div>
+            <div class="featured__card-desc">brabus 800</div>
+            <div class="featured__image-container">
+              <img src="/images/brabus 800.png" alt="brabus" class="featured__card-image" />
+            </div>
+            <div class="featured__card-button">
+              <i class="ri-shopping-bag-3-line"></i>
+            </div>
+          </div>
+          <div class="featured__card mix brabus">
+            <div class="featured__small-dot"></div>
+            <div class="featured__card-title">Brabus</div>
+            <div class="featured__card-desc">brabus 900</div>
+            <div class="featured__image-container">
+              <img src="/images/brabus 900.png" alt="brabus" class="featured__card-image" />
+            </div>
+            <div class="featured__card-button">
+              <i class="ri-shopping-bag-3-line"></i>
+            </div>
+          </div>
+          <div class="featured__card mix maybach">
+            <div class="featured__small-dot"></div>
+            <div class="featured__card-title">Maybach</div>
+            <div class="featured__card-desc">S650</div>
+            <div class="featured__image-container">
+              <img src="/images/s650.png" alt="mayabch" class="featured__card-image" />
+            </div>
+            <div class="featured__card-button">
+              <i class="ri-shopping-bag-3-line"></i>
+            </div>
+          </div>
+          <div class="featured__card mix maybach">
+            <div class="featured__small-dot"></div>
+            <div class="featured__card-title">Maybach</div>
+            <div class="featured__card-desc">S500</div>
+            <div class="featured__image-container">
+              <img src="/images/s500.png" alt="mayabch" class="featured__card-image" />
+            </div>
+            <div class="featured__card-button">
+              <i class="ri-shopping-bag-3-line"></i>
+            </div>
+          </div>
+          <div class="featured__card mix maybach">
+            <div class="featured__small-dot"></div>
+            <div class="featured__card-title">Maybach</div>
+            <div class="featured__card-desc">S560</div>
+            <div class="featured__image-container">
+              <img src="/images/s560.png" alt="mayabch" class="featured__card-image" />
+            </div>
+            <div class="featured__card-button">
+              <i class="ri-shopping-bag-3-line"></i>
+            </div>
+          </div>
+          <div class="featured__card mix amg">
+            <div class="featured__small-dot"></div>
+            <div class="featured__card-title">AMG</div>
+            <div class="featured__card-desc">C63s</div>
+            <div class="featured__image-container">
+              <img src="/images/amg c63s.png" alt="mayabch" class="featured__card-image" />
+            </div>
+            <div class="featured__card-button">
+              <i class="ri-shopping-bag-3-line"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- logos section -->
+      <div class="logo__container container" id="logos">
+        <div class="logo__item">
+          <img src="/images/logo.png" alt="Mercedes" />
+          <span>Mercedes Benz</span>
+        </div>
+        <div class="logo__item">
+          <img src="/images/logo1.png" alt="brabus" />
+          <span>Brabus</span>
+        </div>
+        <div class="logo__item">
+          <img src="/images/logo2.png" alt="maybach" />
+          <span>Maybach</span>
+        </div>
+        <div class="logo__item">
+          <img src="/images/logo3.png" alt="amg" />
+          <span>AMG</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer portion -->
+    <div class="footer footer__container container" id="footer">
+      <div class="footer__big-dot"></div>
+      <div class="footer__small-dot"></div>
+      <div class="footer__logo">
+        <div class="footer__logo-title">
+          <img src="/images/logo.png" alt="mercedes logo" />
+        </div>
+        <div class="footer__logo-description">
+          <span>Mercedes Benz</span>
+          <span>Don’t dream on it, <br />go get it and sit on it.</span>
+        </div>
+      </div>
+      <div class="footer__content-container">
+        <div class="footer__content">
+          <div class="footer__content-title">Company</div>
+          <div class="footer__content-description">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Cars</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Shop</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__content">
+          <div class="footer__content-title">Information</div>
+          <div class="footer__content-description">
+            <ul>
+              <li><a href="#">Request a quote</a></li>
+              <li><a href="#">Find a dealer</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__content">
+          <div class="footer__content-title">Follow us</div>
+          <div class="footer__content-description">
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+              <i class="ri-twitter-line"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <span> &copy; Venura Warnasooriya. </span>
+        <span>All Rights Reserved</span>
+      </div>
+    </div>
+
+    <div class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/assests/js/mixitup.min.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
