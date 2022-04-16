@@ -72,6 +72,7 @@ body {
   font-weight: var(--body-font-weight);
   background-color: var(--body-color);
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 h1,
@@ -825,8 +826,7 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  justify-items: center;
-  align-items: center;
+  justify-content: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -841,7 +841,7 @@ img {
   font-size: var(--small-font-size);
   opacity: 0.6;
   cursor: pointer;
-  transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .logo__item:hover {
