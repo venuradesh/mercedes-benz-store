@@ -44,33 +44,35 @@
       <section class="car-preview container" id="home">
         <div class="big-dot"></div>
         <div class="small-dot"></div>
-        <div class="title-header">
-          <div class="title">Choose Your Car</div>
-          <div class="sub-title">Maybach S650</div>
-          <div class="desc">
-            <i class="ri-roadster-fill"></i>
-            Sedan Version
-          </div>
-        </div>
-        <div class="item-wrapper">
-          <div class="preview">
-            <img src="/images/s650.png" alt="s650" />
-          </div>
-          <div class="performance">
-            <div class="engine">
-              <i class="ri-settings-5-line"></i>
-              <div class="name">Engine</div>
-              <div class="option">5920cc</div>
+        <div class="home__item-container">
+          <div class="title-header">
+            <div class="title">Choose Your Car</div>
+            <div class="sub-title">Maybach S650</div>
+            <div class="desc">
+              <i class="ri-roadster-fill"></i>
+              Sedan Version
             </div>
-            <div class="speed">
-              <i class="ri-dashboard-3-line"></i>
-              <div class="name">Accelaration</div>
-              <div class="option">4s (0-60)</div>
+          </div>
+          <div class="item-wrapper">
+            <div class="preview">
+              <img src="/images/s650.png" alt="s650" />
             </div>
-            <div class="price">
-              <i class="ri-price-tag-3-line"></i>
-              <div class="name">Price</div>
-              <div class="option"><span>$</span> 203,545</div>
+            <div class="performance">
+              <div class="engine">
+                <i class="ri-settings-5-line"></i>
+                <div class="name">Engine</div>
+                <div class="option">5920cc</div>
+              </div>
+              <div class="speed">
+                <i class="ri-dashboard-3-line"></i>
+                <div class="name">Accelaration</div>
+                <div class="option">4s (0-60)</div>
+              </div>
+              <div class="price">
+                <i class="ri-price-tag-3-line"></i>
+                <div class="name">Price</div>
+                <div class="option"><span>$</span> 203,545</div>
+              </div>
             </div>
           </div>
         </div>
@@ -186,18 +188,20 @@
 
       <!-- Features Section -->
       <div class="features__container container" id="features">
-        <img src="/images/roof-view.png" alt="roof view" class="features__image" />
-        <div class="feature__card feature__card1">
-          <div class="feature__card-title">Engine</div>
-          <div class="feature__card-desc">6L Twin Turbo<br />V12 Gas</div>
-        </div>
-        <div class="feature__card feature__card2">
-          <div class="feature__card-title">Torque</div>
-          <div class="feature__card-desc">738 lb-ft<br />@ 2300rpm</div>
-        </div>
-        <div class="feature__card feature__card3">
-          <div class="feature__card-title">Transmission</div>
-          <div class="feature__card-desc">7-speed Automatic</div>
+        <div class="features__wrapper">
+          <img src="/images/roof-view.png" alt="roof view" class="features__image" />
+          <div class="feature__card feature__card1">
+            <div class="feature__card-title">Engine</div>
+            <div class="feature__card-desc">6L Twin Turbo<br />V12 Gas</div>
+          </div>
+          <div class="feature__card feature__card2">
+            <div class="feature__card-title">Torque</div>
+            <div class="feature__card-desc">738 lb-ft<br />@ 2300rpm</div>
+          </div>
+          <div class="feature__card feature__card3">
+            <div class="feature__card-title">Transmission</div>
+            <div class="feature__card-desc">7-speed Automatic</div>
+          </div>
         </div>
         <div class="features__card-map">
           <img src="/images/map.svg" alt="map" />
@@ -322,16 +326,19 @@
     <div class="footer footer__container container" id="footer">
       <div class="footer__big-dot"></div>
       <div class="footer__small-dot"></div>
-      <div class="footer__logo">
-        <div class="footer__logo-title">
-          <img src="/images/logo.png" alt="mercedes logo" />
-        </div>
-        <div class="footer__logo-description">
-          <span>Mercedes Benz</span>
-          <span>Don’t dream on it, <br />go get it and sit on it.</span>
-        </div>
-      </div>
       <div class="footer__content-container">
+        <div class="footer__logo">
+          <div class="footer__logo-title">
+            <img src="/images/logo.png" alt="mercedes logo" />
+          </div>
+          <div class="footer__logo-description">
+            <span class="brand">Mercedes Benz</span>
+            <div class="slogan">
+              <span>Don’t dream on it, </span>
+              <span>go get it and sit on it.</span>
+            </div>
+          </div>
+        </div>
         <div class="footer__content">
           <div class="footer__content-title">Company</div>
           <div class="footer__content-description">
@@ -383,6 +390,7 @@
     </div>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="/assests/js/mixitup.min.js"></script>
+    <script src="/assests/js/scrollreveal.min.js"></script>
     <script src="/index.js"></script>
   </body>
 </html>
